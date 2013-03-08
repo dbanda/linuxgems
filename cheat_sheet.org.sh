@@ -3,6 +3,8 @@
 # The contents of this file are released under the GNU General Public License. Feel free to reuse the contents of this work, as long as the resultant works give proper attribution and are made publicly available under the GNU General Public License.
 # Best viewed in emacs org-mode.
 
+# Credit to William Hackmore, and a few addtions by Dalitso Banda
+
 * Reference:
 ** Basics:
 *** Getting help:
@@ -549,3 +551,19 @@ mysqldump -u username -p --opt databasename > dumpfile.sql
 
 # restore from entire database dump:
 mysql -u username -p --database=databasename < dumpfile.sql
+
+# reboot the computer, usually requires sudo 
+reboot
+
+# restart the computer, usually requires sudo
+shutdown -r 'time value in seconds to restart'
+
+# shutdown, usually requires sudo
+shutdown 'time in seconds'
+
+
+# logout from a session in ubuntu 12.04 /12.10/13.04
+'session name'-session-quit
+
+# logout from a session in ubuntu < 12.04
+logout
